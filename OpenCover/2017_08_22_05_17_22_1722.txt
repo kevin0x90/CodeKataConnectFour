@@ -1,0 +1,1 @@
+_4Gewinnt.Test.FourWinsTest.When_Player1_Has_4_Vertical_The_Game_Should_End
