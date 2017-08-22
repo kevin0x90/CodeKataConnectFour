@@ -54,7 +54,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\4Gewinnt\ConnectFour.csproj">
+    <ProjectReference Include="..\ConnectFour\ConnectFour.csproj">
       <Project>{4658b9bf-1c45-44f1-83f9-266d37d5ffbb}</Project>
       <Name>ConnectFour</Name>
     </ProjectReference>

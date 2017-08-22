@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour", "4Gewinnt\ConnectFour.csproj", "{4658B9BF-1C45-44F1-83F9-266D37D5FFBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour", "ConnectFour\ConnectFour.csproj", "{4658B9BF-1C45-44F1-83F9-266D37D5FFBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour.Test", "4Gewinnt.Test\ConnectFour.Test.csproj", "{E0386297-390F-4CEB-ADB7-89524396890A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour.Test", "ConnectFour.Test\ConnectFour.Test.csproj", "{E0386297-390F-4CEB-ADB7-89524396890A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
