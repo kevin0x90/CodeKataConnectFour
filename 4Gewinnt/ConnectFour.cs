@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _4Gewinnt
+namespace ConnectFourGame
 {
-    public class FourWins
+    public class ConnectFour
     {
         private const int ROWS = 6;
         private const int COLUMNS = 7;
@@ -14,7 +14,7 @@ namespace _4Gewinnt
         private List<Position> player1Positions = new List<Position>();
         private List<Position> player2Positions = new List<Position>();
 
-        public FourWins()
+        public ConnectFour()
         {
             Map = new int[ROWS, COLUMNS];
             Player1 = 1;

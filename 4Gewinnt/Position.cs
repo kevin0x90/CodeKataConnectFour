@@ -1,4 +1,4 @@
-﻿namespace _4Gewinnt
+﻿namespace ConnectFourGame
 {
     public class Position
     {

@@ -2,15 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-namespace _4Gewinnt.Test
+namespace ConnectFourGame.Test
 {
     [TestFixture]
-    public class FourWinsTest
+    public class ConnectFourTest
     {
         [Test]
         public void Map_Should_Be_6_x_7()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             var map = sut.Map;
 
@@ -21,7 +21,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void Map_Should_Be_Initialized_With_0()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
             var expectedMap = new int[6, 7]
             {
                 {0, 0, 0, 0, 0, 0, 0 },
@@ -40,7 +40,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void Player1_Should_Be_Represented_By_1()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             var player1 = sut.Player1;
 
@@ -50,7 +50,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void Player2_Should_Be_Represented_By_2()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             var player2 = sut.Player2;
 
@@ -60,7 +60,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void It_Should_Be_Possible_To_Load_A_Map()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
             var expectedMap = new int[6, 7]
             {
                 {0, 0, 0, 0, 0, 0, 0 },
@@ -79,7 +79,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void It_Should_Be_Checked_If_A_Move_Is_Possible()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             var isMovePossible = sut.Move(sut.Player1, 0);
 
@@ -89,7 +89,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void An_Invalid_Move_Should_Return_False()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             var isMovePossible = sut.Move(sut.Player1, 0);
             isMovePossible = sut.Move(sut.Player1, 0);
@@ -105,7 +105,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void The_Game_Should_Print_The_Map_Correctly()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
             var expectedMap = new int[6, 7]
             {
                 {0, 0, 0, 0, 0, 0, 0 },
@@ -131,7 +131,7 @@ namespace _4Gewinnt.Test
         [Test]
         public void The_Game_Should_Determine_If_The_Map_Is_Full()
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
             var expectedMap = new int[6, 7]
             {
                 {1, 1, 1, 2, 1, 1, 1 },
@@ -151,7 +151,7 @@ namespace _4Gewinnt.Test
         [TestCaseSource("win_situation_player_1_source_diagonal")]
         public void When_Player1_Has_4_Diagonal_The_Game_Should_End(int player, int[,] expectedMap)
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             sut.LoadMap(expectedMap);
 
@@ -162,7 +162,7 @@ namespace _4Gewinnt.Test
         [TestCaseSource("win_situation_player_1_source_horizontal")]
         public void When_Player1_Has_4_Horizontal_The_Game_Should_End(int player, int[,] expectedMap)
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             sut.LoadMap(expectedMap);
 
@@ -173,7 +173,7 @@ namespace _4Gewinnt.Test
         [TestCaseSource("win_situation_player_1_source_vertical")]
         public void When_Player1_Has_4_Vertical_The_Game_Should_End(int player, int[,] expectedMap)
         {
-            var sut = new FourWins();
+            var sut = new ConnectFour();
 
             sut.LoadMap(expectedMap);
 

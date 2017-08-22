@@ -1,1 +1,0 @@
-_4Gewinnt.Test.FourWinsTest.Map_Should_Be_7_x_6

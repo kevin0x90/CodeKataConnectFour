@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace _4Gewinnt
+namespace ConnectFourGame
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var game = new FourWins();
+            var game = new ConnectFour();
 
             Console.Write(game.MapToString());
 
