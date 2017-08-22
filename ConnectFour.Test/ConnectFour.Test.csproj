@@ -8,8 +8,8 @@
     <ProjectGuid>{E0386297-390F-4CEB-ADB7-89524396890A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_4Gewinnt.Test</RootNamespace>
-    <AssemblyName>4Gewinnt.Test</AssemblyName>
+    <RootNamespace>ConnectFour.Test</RootNamespace>
+    <AssemblyName>ConnectFour.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>

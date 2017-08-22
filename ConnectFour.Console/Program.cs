@@ -1,6 +1,7 @@
-﻿using System;
+﻿using ConnectFourGame;
+using System;
 
-namespace ConnectFourGame
+namespace ConnectFourCmd
 {
     class Program
     {
